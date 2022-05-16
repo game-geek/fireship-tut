@@ -1,0 +1,113 @@
+﻿
+@media print {
+
+    /*remove hrefs from all links */
+    a[href]:after {
+        content: none !important;
+    }
+
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        padding: 4px;
+    }
+
+
+    div.CCCContent, .panel {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .sidebar, .mainmenu, .minimenu, .submenu, .btn {
+        display: none !important;
+    }
+
+
+    .CCCContent {
+        margin-top: -60px !important;
+    }
+
+    .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+        background-color: white;
+        padding: 0px;
+        height: 15px;
+    }
+
+        .form-control[disabled]:focus, .form-control[readonly]:focus, fieldset[disabled] .form-control:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+
+    .panel {
+        border: none;
+        box-shadow: none;
+    }
+
+        .panel .panel-primary {
+            border: none;
+        }
+
+    .container-fluid {
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .container-fluid .row {
+            margin-bottom: 0px;
+        }
+
+    .form-control {
+        background-color: white;
+        border: none;
+        box-shadow: none;
+    }
+
+
+    .panel-primary > .panel-heading {
+        background: white;
+        color: black;
+        border-bottom: 1px solid black;
+    }
+
+
+    .panel-subtitle {
+        background-color: white !important;
+        color: black !important;
+        padding: 2px !important;
+        border: none !important;
+        border-bottom: 1px solid black !important;
+        font-weight: 100 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+        border: 1px solid black !important;
+        background-color: white;
+    }
+
+    .CCCGridViewSubFooter, .CCCSortImage {
+        visibility: hidden;
+    }
+
+    .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td,
+    .bg-primary {
+        border: 1px solid black !important;
+        background-color: white;
+    }
+
+        .bg-primary th {
+            background-color: transparent !important;
+        }
+
+    table.CCCGridView tr th a {
+        color: black !important;
+    }
+
+
+    input[readonly].default-cursor, .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control, input[type="radio"][disabled], input[type="checkbox"][disabled], input.disabled[type="radio"], input.disabled[type="checkbox"], fieldset[disabled] input[type="radio"], fieldset[disabled] input[type="checkbox"], .ui-state-disabled .ui-icon {
+        height: 20px;
+    }
+
+    .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled, select.input-sm {
+        border: 0px;
+    }
+}

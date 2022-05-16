@@ -1,0 +1,23 @@
+{
+
+	"component": {
+        "scope": "typescript",
+		"prefix": "nps",
+		"body": [
+			"import { FC } from 'react'",
+			"",
+			"interface props {",
+			"",
+			"}",
+			"",
+			"const Page:FC = ({ }) => {",
+			"  return (",
+			"    <main>",
+			"    </main>",
+			"  )",  
+			"}",
+			"export default Page",
+		],
+		"description": "React component"
+	}
+}
